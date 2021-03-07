@@ -7,4 +7,3 @@ btn.addEventListener('click', () => {
   console.log('working');
 });
 
-AOS.init();

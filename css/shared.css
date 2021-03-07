@@ -31,3 +31,9 @@
     margin-bottom: -3rem;
   }
 }
+
+@media only screen and (max-device-width: 450px) {
+  .billboard {
+    height: 25vh;
+  }
+}

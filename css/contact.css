@@ -82,6 +82,11 @@ form p {
   padding-bottom: .5rem;
 }
 
+input[type="submit"] {
+  background-color: var(--green);
+  color: white;
+}
+
 @media only screen and (max-device-width: 900px) {
 
   .main-contact {
