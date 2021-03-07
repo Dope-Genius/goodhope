@@ -1,0 +1,653 @@
+:root {
+  --green: #77BF43;
+  --blue: #5AC8E7;
+  --bg-color: rgba(209, 242, 251, 0.99);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.pad-x {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.pad{
+  padding: 3rem;
+}
+
+.menu {
+  display: none;
+}
+
+
+/* styling for nav bar */
+
+header {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  position: fixed;
+  width:100%;
+  background-color: white;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid var(--green);
+  height: 5.5rem;
+  overflow: hidden;
+}
+
+.height {
+  height: fit-content;
+  transition: height 3s;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 2.5rem;
+  padding-top: 1rem;
+  /* border-bottom: 1px solid var(--green); */
+  width: 100%;
+}
+
+.mobile-nav {
+  text-align: center;
+  padding: .5rem .5rem;
+}
+
+.mobile-nav li {
+  list-style-type: none; 
+  padding: .5rem 0;
+}
+
+.logo {
+  width: 3.5rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav-links li {
+  display: inline;
+  text-transform: uppercase;
+  padding: 0 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul .active {
+  color: #45879A;
+}
+
+/* Styling for Buttons */
+
+.btn {
+  padding: .6rem 1.5rem;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.2s ease;
+  font-size: .9rem;
+}
+
+.btn--donate {
+  background-color: var(--green);
+}
+
+.btn--blue {
+  background-color: var(--blue);
+}
+
+.btn:hover {
+  transform: scale(1.08)
+}
+
+.btn:active {
+  transfrom
+}
+
+/* styling for billboard */
+.billboard {
+  background: linear-gradient(to right, rgba(100, 110, 112, 0.52) , rgba(106, 194, 43, 0.3));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 4.5rem;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.billboard--content {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1.2px;
+  color: white;
+  position: absolute;
+  top: 35%;
+  padding: 0 2.5rem;
+  /* background-color: rgba(50, 85, 70, 0.418); */
+  padding: 1.6rem 1rem;
+}
+
+.billboard--content h1 {
+  font-size: 1.5rem;
+  /* margin-bottom: .5rem; */
+}
+
+.billboard--content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;;
+}
+
+.light-text {
+  /* font-weight: 300; */
+}
+
+/* Styling for the about us section */
+.main-heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.8rem;
+  color: var(--green);
+  margin-top: .3rem;
+  margin-bottom: .6rem;
+}
+
+.para {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.about-us {
+  display: flex;
+  justify-content:space-between;
+}
+
+.about-us .para {
+  line-height: 2.2;
+}
+
+.about--content a {
+  margin-top: 1rem;
+}
+
+.small-heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  font-weight: bold; 
+}
+
+
+.about--content {
+  flex: 0 0 50%;
+  margin-right: 2rem;
+}
+
+.about--content button { 
+  margin-top: 1rem;
+}
+
+.about--image img{
+  width: 100%;
+  padding-top: 1.5rem;
+}
+
+/* styling for the Objectives section */
+
+.objectives {
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+.objectives-row-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.objectives-row-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  font-family: 'Poppins', sans-serif;
+  font-size: .7rem;
+  background-color: white;
+  padding: 3rem 1rem;
+  margin: 1rem;
+  width: 30%;
+  border-radius: 15px;
+  background-color: white;
+  /* border: 1px solid var(--green); */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  color: black;
+  font-size: 1rem;
+}
+
+
+.card-info p {
+  font-size: .9rem;
+}
+
+.icon {
+  margin-bottom: 2rem;
+}
+
+.card .fas {
+  font-size: 3.5rem;
+  color: var(--green);
+}
+
+/* styling for the mission/vision section */
+.mis-vis {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* background: rgba(231, 226, 226, 0.52); */
+
+}
+
+.mission {
+  font-family: 'Poppins', sans-serif;
+  width: 48%;
+  margin: 1rem 0 2rem 0;
+}
+
+
+/* Styling for the statistics page */
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(180deg, #5A962F 8.96%, rgba(72, 117, 40, 0.77) 100.65%, rgba(255, 255, 255, 0) 93.100%),
+  url("../images/woman_carrying_child.jpg");
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 60%;
+}
+
+.stat--text {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.stat--text p {
+  padding-bottom: .5rem;
+}
+
+.stat--count {
+  font-family: 'Poppins', sans-serif;
+  margin: 2rem 1rem;
+}
+
+.count-no {
+  font-size: 2.5rem;
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.count-text {
+  color: white;
+}
+
+/* styling for latest news from blog */
+
+.news-col {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+}
+
+.news {
+  /* background-color: var(--bg-color); */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.news--image {
+  height: 15rem;
+  overflow: hidden;
+}
+
+.news--image img {
+  width: 100%;
+}
+
+.news--text, .news--more {
+  padding: 1rem;
+}
+
+.news--more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+  font-size: .5rem;
+}
+
+.news--more p {
+  font-weight: light;
+  font-size: .8rem;
+}
+
+/* styling for testimonials */
+.testimonial {
+  background: linear-gradient(180deg, #5A962F 8.96%, rgba(72, 117, 40, 0.77) 100.65%, rgba(255, 255, 255, 0) 93.100%), url("../images/woman_carrying_child.jpg");
+}
+
+.testimonial h2 {
+  margin-bottom: 2rem;
+}
+
+.testimony {
+  font-family: 'Poppins', sans-serif;
+  background: rgba(69, 135, 154, 0.5);
+  margin: 1rem;
+  padding: 3rem 1.8rem;
+  color: white;
+}
+
+.testimony--name {
+  margin-top: 3rem;
+}
+
+.testimony--name, .testimony--state {
+  font-size: .8rem;
+  text-align: right;
+}
+
+.testimony--state {
+  font-size: .6rem;
+}
+
+.testimony-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for the invitation */
+.invitation .para {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.invitation .btn {
+  margin: 2rem 0;
+}
+
+/* Styling for footer */
+
+footer {
+  background-color: #5A962F;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans serif;
+  color: white;
+}
+
+.contact-group {
+  display: flex;
+  align-items: center;
+  padding: .8rem .1rem;
+}
+
+.contact-group p {
+  padding-left: .5rem;
+}
+
+.company--name {
+  font-size: 1.6rem;
+  line-height: 1.2rem;;
+  /* font-weight: bold; */
+  padding: 0;
+  margin: 0;
+}
+
+.small {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links  p {
+  font-weight: bold;
+}
+
+.quick-links li {
+  list-style-type: none;
+  padding-left: .5rem;
+  padding-top: .5rem;
+  color: white;
+}
+
+.quick-links li a {
+ color: white;
+}
+
+.socials {
+  align-self: center;
+}
+
+.fab {
+  padding: 1rem;
+  width: 3rem;
+  margin: 0 .5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* .fa-facebook-f {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ce3261;
+  color: white;
+} */
+
+.socials a {
+  color: white;
+}
+
+.rights {
+  padding: 1rem 0;
+  font-family: 'Poppins', sans serif;
+}
+
+@media only screen and (max-device-width: 900px) {
+
+  html { font-size: calc(.6em + 1vw); }  
+
+  .pad {
+    padding: 1.5rem 2rem;
+  }
+
+  .pad-x {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .nav-links {
+    display: none;
+    align-self: baseline;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .fa-bars {
+    font-size: 1.6rem;
+    color: var(--green);
+  }
+
+  .nav-links li {
+    display: block;
+  }
+
+  .billboard {
+  height: 60vh;
+  overflow: hidden;
+  }
+
+  .billboard--content {
+    position: absolute;
+    top: 30%;
+  }
+  
+  .billboard--content h1 {
+    font-size: .8rem;
+  }
+
+  .billboard--content h2 {
+    font-size: 1.5rem;
+  }
+
+
+  .about-us {
+    display: block;
+  }
+
+  .about--image {
+    display: none;
+  }
+
+  .objectives-row-1, .objectives-row-2 {
+    display: block;
+  }
+
+  .card {
+    width: 92%;
+  }
+
+  /* Statistics Styling for phone */
+
+
+  .stat--tex {
+    font-size: 1.4rem
+  }
+
+  .count-no {
+    font-size: 1.8rem;
+  }
+
+  /* .stats {
+    display: block;
+  } */
+
+  /* Vision */
+  .mis-vis {
+    display: block;
+  }
+
+  .mission {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .news-col {
+    display: block;
+  }
+
+  .news {
+    margin: 1.5rem auto;
+  }
+
+  /* Testimony */
+  .testimony {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .testimony-row {
+    display: block;
+  }
+
+  footer {
+    display: block;
+  }
+
+  footer > * {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-device-width: 450px) {
+  .billboard {
+    height: 42vh;
+    }
+
+  .billboard--content {
+    position: absolute;
+    top: 25%;
+    padding: 1rem .8rem;
+  }
+
+  .statistics {
+    display: block;
+  }
+  
+  .stats {
+    display: block;
+    text-align: center;
+    padding-bottom: .5rem;
+
+  }
+
+  .testimony {
+    width: 90%;
+  }
+
+}
