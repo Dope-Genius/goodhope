@@ -423,7 +423,9 @@ ul .active {
 .invitation .para {
   font-size: 1rem;
   font-weight: bold;
-}
+  text-align: center;
+  }
+
 
 .invitation .btn {
   margin: 2rem 0;
@@ -629,6 +631,9 @@ footer {
   .testimony-row {
     display: block;
   }
+
+
+
 
   footer {
     display: block;
