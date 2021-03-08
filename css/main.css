@@ -629,7 +629,7 @@ footer {
   .para {
     text-align: left;
     line-height: 1rem;
-    font-size: 1.14rem;
+    font-size: 1.08rem;
   }
 
   .objectives-row-1, .objectives-row-2 {
@@ -706,6 +706,13 @@ footer {
     font-size: 2.1rem;
   }
 
+  .about--content {
+    padding-right: 0rem;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+  
   .card-info p {
     font-size: 1rem;
   }
