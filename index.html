@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="shortcut icon" href="images/goodhope logo.jpg"> -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
@@ -18,12 +17,13 @@
   <link rel="manifest" href="favicon_io (5)/site.webmanifest">
   <title>GoodHope Flourish</title>
 </head>
-<body>
+<body class="body">
+  
   <header class="header">
     <nav>
       <a href="index.html"><div class="logo"><img src="images/goodhope logo.jpg" alt="goodhope logo"></div></a>
-      <div class="menu"><i class="fas fa-bars"></i></div>
-      <div  class="nav-links" id="navlinks">
+      <div class="menu">MENU  <i class="fas fa-bars"></i></div>
+      <!-- <div  class="nav-links" id="navlinks">
         <ul>
           <li ><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -31,11 +31,23 @@
           <li><a href="contact.html">Contact</a></li>
           <a href="#" class="btn btn--donate">DONATE</a>
           <li><a href="signin.html">Login</a></li>
-
         </ul>
-      </div>
+      </div> -->
     </nav>
     <div class="mobile-nav" id="navlinks">
+      <ul>
+        <li ><a href="index.html" class="active">Home</a></li>
+        <li ><a href="index.html" class="active">The Challenge</a></li>
+        <li ><a href="index.html" class="active">Our Work</a></li>
+        <li ><a href="index.html" class="active pill">Our Team</a></li>
+        <li><a href="about.html" class="">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="signin.html">Login</a></li>
+        <a href="#" class="btn btn--donate">DONATE</a>
+      </ul>
+    </div>
+    <!-- <div class="mobile-nav" id="navlinks">
       <ul>
         <li ><a href="index.html" class="active">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -44,7 +56,7 @@
         <a href="#" class="btn btn--donate">DONATE</a>
         <li><a href="signin.html">Login</a></li>
       </ul>
-    </div>
+    </div> -->
   </header>
 
   <section class="billboard">
@@ -76,7 +88,7 @@
       <!-- <button class="btn btn--donate">Read More</button> -->
     </div>
 
-    <div class="about--image" data-aos="zoom-in" data-aos-duration="800">
+    <div class="about--image">
       <img src="images/about.jpg" alt="">
     </div>
   </section>
@@ -85,7 +97,7 @@
     <h2 class="main-heading center">Core Objectives</h2>
 
     <div class="objectives-row-1">
-      <div class="card" data-aos="fade-up" data-aos-duration="1000">
+      <div class="card" data-aos="fade-up" data-aos-duration="800">
         <div class="icon"><i class="fas fa-heartbeat"></i></div>
         <div class="card-info">
           <h3>Health Care</h3>
@@ -93,7 +105,7 @@
         </div>
       </div>
 
-      <div class="card" data-aos="fade-up" data-aos-duration="1000">
+      <div class="card" data-aos="fade-up" data-aos-duration="800">
         <div class="icon"><i class="fas fa-info-circle"></i></div>
         <div class="card-info">
           <h3>Sensitization</h3>
@@ -101,7 +113,7 @@
         </div>
       </div>
       
-      <div class="card" data-aos="fade-up" data-aos-duration="1000">
+      <div class="card" data-aos="fade-up" data-aos-duration="800">
         <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
         <div class="card-info">
           <h3>Education</h3>
@@ -112,7 +124,7 @@
     </div>
 
     <div class="objectives-row-2 ">
-      <div class="card" data-aos="fade-up" data-aos-duration="1000">
+      <div class="card" data-aos="fade-up" data-aos-duration="800">
         <div class="icon"><i class="fas fa-bullhorn"></i></div>
         <div class="card-info">
           <h3>Campaign</h3>
@@ -120,7 +132,7 @@
         </div>
       </div>
 
-      <div class="card" data-aos="fade-up" data-aos-duration="1000">
+      <div class="card" data-aos="fade-up" data-aos-duration="800">
         <div class="icon"><i class="fas fa-venus-mars"></i></i></div>
         <div class="card-info">
           <h3>Advocacy</h3>
@@ -131,12 +143,12 @@
   </section>
 
   <section class="mis-vis pad">
-    <div class="mission" data-aos="zoom-in" data-aos-duration="1000">
+    <div class="mission" data-aos="zoom-in" data-aos-duration="800">
       <h2 class="main-heading">Our Mission</h2>
       <p>To inspire hope, improve health and educational standards through service, research and impact</p>
     </div>
 
-    <div class="mission" data-aos="zoom-in" data-aos-duration="1000">
+    <div class="mission" data-aos="zoom-in" data-aos-duration="800">
       <h2 class="main-heading">Our Vision</h2>
       <p>To be the unparalleled leader in improving the standard of living, education and health care in Nigerian states and communities</p>
     </div>
@@ -149,17 +161,17 @@
     </div>
 
     <div class="stats">
-      <div class="stat--count" data-aos="fade-left" data-aos-duration="1000">
+      <div class="stat--count" data-aos="fade-left" data-aos-duration="700">
         <div class="count-no">500+</div>
         <div class="count-text">Campaign</div>
       </div>
   
-      <div class="stat--count" data-aos="fade-left" data-aos-duration="1000">
+      <div class="stat--count" data-aos="fade-left" data-aos-duration="700">
         <div class="count-no">30+</div>
         <div class="count-text">Donors</div>
       </div>
   
-      <div class="stat--count" data-aos="fade-left" data-aos-duration="1000">
+      <div class="stat--count" data-aos="fade-left" data-aos-duration="700">
         <div class="count-no">1500</div>
         <div class="count-text">Lives Saved</div>
       </div>
@@ -270,6 +282,7 @@
       <a href="#"><i class="fab fa-instagram"></i></a>
     </div>
   </footer>
+  
   <div class="rights center">Copyright ©2020 GoodHope Flourish Foundation All rights reserved</div>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
@@ -277,4 +290,7 @@
   </script>
   <script src="app.js"></script>
 </body>
+
+
+
 </html>

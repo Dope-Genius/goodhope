@@ -1,9 +1,14 @@
 const btn = document.querySelector('.menu');
-const header = document.querySelector(".header");
+const body = document.querySelector(".body");
+const links = document.querySelector("#navlinks");
+
 
 
 btn.addEventListener('click', () => {
-  header.classList.toggle("height");
+  body.classList.toggle("active");
+  links.classList.toggle("active");
   console.log('working');
 });
+
+console.log(links)
 
