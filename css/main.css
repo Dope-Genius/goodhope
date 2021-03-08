@@ -241,7 +241,7 @@ ul .active {
   font-size: 2.5rem;
   color: var(--green);
   margin-top: .3rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 2rem;
 }
 
 .para {
@@ -326,7 +326,7 @@ ul .active {
 .card h3 {
   font-family: 'Ubuntu', sans-serif;
   color: black;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-bottom: .5rem;
 }
 
@@ -629,7 +629,7 @@ footer {
   .para {
     text-align: left;
     line-height: 1rem;
-    font-size: 1.08rem;
+    font-size: 1.15rem;
   }
 
   .objectives-row-1, .objectives-row-2 {
@@ -703,7 +703,7 @@ footer {
   }
 
   .main-heading {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
   }
 
   .about--content {
@@ -714,7 +714,7 @@ footer {
   }
   
   .card-info p {
-    font-size: 1rem;
+    font-size: 1.15rem;
   }
 
   .card .fas {
