@@ -52,7 +52,7 @@ a {
 }
 
 .pad{
-  padding: 4.5rem 3rem;
+  padding: 5rem 3rem;
 }
 
 .menu {
@@ -86,7 +86,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: .5rem 2rem;
+  padding: .2rem 1rem;
   padding-top: 1rem;
   /* border-bottom: 1px solid var(--green); */
   /* width: 100%; */
@@ -109,6 +109,7 @@ nav {
   align-items: center;
   display: none;
   color: white;
+  flex-direction: column;
 }
 
 .mobile-nav.active {
@@ -119,7 +120,7 @@ nav {
   align-self: flex-end;
   text-align: center;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
   color: green;
   background-color: white;
 
@@ -128,6 +129,11 @@ nav {
 .mobile-nav ul {
   display: flex;
   flex-direction: column;
+}
+
+.nav-social {
+  position: absolute;
+  bottom: 1rem;
 }
 
 
@@ -164,7 +170,7 @@ li a {
 
 ul .active {
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   margin-bottom: .2rem;
 }
 
@@ -201,12 +207,10 @@ ul .active {
 
 /* styling for billboard */
 .billboard {
-  background: linear-gradient(to right, rgba(100, 110, 112, 0.52) , rgba(106, 194, 43, 0.3));
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%);
   background-position: center;
   margin-top: 4.5rem;
-  height: 80vh;
+  height: 85vh;
   overflow: hidden;
 }
 
@@ -223,7 +227,6 @@ ul .active {
 
 .billboard--content h1 {
   font-size: 1.5rem;
-  /* margin-bottom: .5rem; */
 }
 
 .billboard--content h2 {
@@ -237,16 +240,18 @@ ul .active {
 
 /* Styling for the about us section */
 .main-heading {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
   color: var(--green);
-  margin-top: .3rem;
-  margin-bottom: 2rem;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .para {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: justify;
 }
 
@@ -256,11 +261,15 @@ ul .active {
 }
 
 .about-us .para {
-  line-height: 2;
+  line-height: 1.8;
 }
 
 .about--content a {
   margin-top: 1rem;
+}
+
+.about--content h2 {
+  padding-bottom: 0;
 }
 
 .small-heading {
@@ -271,7 +280,7 @@ ul .active {
 
 .about--content {
   flex: 0 0 50%;
-  padding-right: 1rem;
+  padding-right: 3rem;
   margin-right: 3rem;
 }
 
@@ -288,19 +297,31 @@ ul .active {
 /* styling for the Objectives section */
 
 .objectives {
-  background-color: var(--bg-color);
   text-align: center;
+  background-color: #f7f7f7!important;
 }
 
-.objectives-row-1 {
-  /* display: flex; */
-  justify-content: center;
+.obj--group {
+  display: flex;
 }
 
-.objectives-row-2 {
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
+.obj--image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 1rem;
+  flex: 0 0 35%;
+}
+
+.obj--image img {
+  width: 100%;
+  margin: 3rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.objectives--cards {
+  margin-left: 3rem;
 }
 
 .card {
@@ -308,8 +329,8 @@ ul .active {
   font-size: .7rem;
   background-color: white;
   padding: 3rem 1.5rem;
-  margin: 1rem auto;
-  /* width: 30%; */
+  margin: 2rem auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
   background-color: white;
   display: flex;
@@ -324,7 +345,7 @@ ul .active {
 }
 
 .card h3 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: black;
   font-size: 1.5rem;
   margin-bottom: .5rem;
@@ -336,7 +357,7 @@ ul .active {
 }
 
 .icon {
-  margin: 0 6rem;
+  margin: 0 2rem;
 }
 
 .card .fas {
@@ -355,9 +376,9 @@ ul .active {
 
 .mission {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   width: 48%;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0 3rem 0;
 }
 
 
@@ -369,6 +390,7 @@ ul .active {
   text-align: center;
   background: linear-gradient(180deg, #5A962F 8.96%, rgba(72, 117, 40, 0.77) 100.65%, rgba(255, 255, 255, 0) 93.100%),
   url("../images/woman_carrying_child.jpg");
+  min=height: 15rem;
 }
 
 .stats {
@@ -381,7 +403,7 @@ ul .active {
   color: white;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.8rem;
-  padding-top: 1.5rem;
+  padding-top: 3rem;
 }
 
 .stat--text p {
@@ -418,6 +440,7 @@ ul .active {
   margin: 1rem;
   padding-bottom: 1rem;
   width: 100%;
+  max-width: 30rem;
   overflow: hidden;
 }
 
@@ -458,23 +481,30 @@ ul .active {
 
 .testimony {
   font-family: 'Poppins', sans-serif;
-  background: rgba(69, 135, 154, 0.5);
-  margin: 1rem;
+  /* background: rgba(69, 135, 154, 0.5); */
+  margin: 1rem 1rem;
   padding: 3rem 1.8rem;
   color: white;
+  text-align: center;
 }
+
+.testimony .para {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
 
 .testimony--name {
   margin-top: 3rem;
 }
 
 .testimony--name, .testimony--state {
-  font-size: .8rem;
-  text-align: right;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .testimony--state {
-  font-size: .6rem;
+  font-size: .95rem;
 }
 
 .testimony-row {
@@ -485,7 +515,6 @@ ul .active {
 /* Styling for the invitation */
 .invitation .para {
   font-size: 1rem;
-  font-weight: bold;
   text-align: center;
   }
 
@@ -512,6 +541,7 @@ footer {
 
 .contact-group p {
   padding-left: .5rem;
+  font-size: 1.2rem;
 }
 
 .company--name {
@@ -530,6 +560,7 @@ footer {
 
 .quick-links  p {
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .quick-links li {
@@ -537,11 +568,15 @@ footer {
   padding-left: .5rem;
   padding-top: .5rem;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .quick-links li a {
  color: white;
+}
+
+.fa-angle-right {
+  padding-right: .2rem;
 }
 
 .socials {
@@ -567,7 +602,7 @@ footer {
 
 @media only screen and (max-device-width: 900px) {
 
-  html { font-size: calc(.8em + 1vw); }  
+  html { font-size: calc(.6em + 1vw); }  
 
   .pad {
     padding: 3.5rem 2rem;
@@ -601,7 +636,7 @@ footer {
   }
 
   .billboard {
-  height: 60vh;
+  height: 70vh;
   overflow: hidden;
   }
 
@@ -628,13 +663,17 @@ footer {
 
   .para {
     text-align: left;
-    line-height: 1rem;
     font-size: 1.15rem;
   }
 
   .objectives-row-1, .objectives-row-2 {
     display: block;
   }
+
+  .obj--image {
+   display: none;
+  }
+  
 
   .card {
     width: 100%;
@@ -667,7 +706,7 @@ footer {
   }
 
   .news {
-    margin: 1.5rem auto;
+    margin: 2rem auto;
   }
 
   /* Testimony */
@@ -689,21 +728,21 @@ footer {
   }
 }
 
-@media only screen and (max-device-width: 450px) {
+@media only screen and (max-device-width: 480px) {
   html { font-size: calc(.6em + 1vw); }  
 
   .billboard {
-    height: 42vh;
+    height: 50vh;
     }
 
   .billboard--content {
     position: absolute;
     top: 12rem;
-    padding: 1rem .8rem;
+    padding: 1rem 1rem;
   }
 
   .main-heading {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
 
   .about--content {
@@ -712,9 +751,17 @@ footer {
     margin-left: auto;
 
   }
+
+  .objectives--cards {
+    margin: 0 auto;
+  }
+
+  .card {
+    margin: 1.8rem auto;
+  }
   
   .card-info p {
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 
   .card .fas {
