@@ -39,7 +39,7 @@ body.active {
 
 a {
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .center {
@@ -64,7 +64,8 @@ a {
 /* styling for nav bar */
 
 header {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   font-weight: 500;
   font-size: 1rem;
   position: fixed;
@@ -122,8 +123,7 @@ nav {
   margin: 0 auto;
   margin-top: 2rem;
   color: green;
-  background-color: white;
-
+  background-color: white
 }
 
 .mobile-nav ul {
@@ -178,13 +178,13 @@ ul .active {
 
 .btn {
   padding: .6rem 1.5rem;
-  border-radius: 40px;
+  border-radius: 20px;
   border: none;
   color: white;
   font-weight: bold;
   display: inline-block;
   transition: all 0.2s ease;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 
@@ -215,22 +215,22 @@ ul .active {
 }
 
 .billboard--content {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 1.2px;
   color: white;
   position: absolute;
-  top: 20rem;
+  top: 14rem;
   padding: 0 2.5rem;
   /* background-color: rgba(50, 85, 70, 0.418); */
   padding: 1.6rem 1rem;
 }
 
 .billboard--content h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .billboard--content h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 1rem;;
 }
 
@@ -240,7 +240,7 @@ ul .active {
 
 /* Styling for the about us section */
 .main-heading {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--green);
   font-size: 30px;
   font-weight: 700;
@@ -250,7 +250,7 @@ ul .active {
 }
 
 .para {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.1rem;
   text-align: justify;
 }
@@ -269,7 +269,7 @@ ul .active {
 }
 
 .about--content h2 {
-  padding-bottom: 0;
+  padding-bottom: 1rem;
 }
 
 .small-heading {
@@ -305,7 +305,7 @@ ul .active {
   display: flex;
 }
 
-.obj--image {
+/* .obj--image {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -318,16 +318,17 @@ ul .active {
   width: 100%;
   margin: 3rem 1rem;
   margin-bottom: 1rem;
-}
+} */
 
 .objectives--cards {
   margin-left: 3rem;
 }
 
 .card {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: .7rem;
   background-color: white;
+  /* background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(/images/healh\ care.jpg); */
   padding: 3rem 1.5rem;
   margin: 2rem auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -340,13 +341,34 @@ ul .active {
   /* border: 1px solid var(--green); */
 }
 
+.card-1 {
+  background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(../images/healh\ care.jpg);
+}
+
+.card-2 {
+  background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(../images/healh\ care.jpg);
+}
+
+.card-3 {
+  background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(../images/Educaion.jpg);
+}
+
+.card-4 {
+  background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(../images/campaign2.jpg);
+}
+
+.card-5 {
+  background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(/images/My\ Photos-9.jpg);
+}
+
+
 .card:hover {
   transform: scale(1.05);
 }
 
 .card h3 {
   font-family: 'Poppins', sans-serif;
-  color: black;
+  color: white;
   font-size: 1.5rem;
   margin-bottom: .5rem;
 }
@@ -354,6 +376,7 @@ ul .active {
 
 .card-info p {
   font-size: 1.1rem;
+  color: white;
 }
 
 .icon {
@@ -362,7 +385,7 @@ ul .active {
 
 .card .fas {
   font-size: 3.5rem;
-  color: var(--green);
+  color: white;
 }
 
 /* styling for the mission/vision section */
@@ -375,7 +398,7 @@ ul .active {
 }
 
 .mission {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.1rem;
   width: 48%;
   margin: 1rem 0 3rem 0;
@@ -401,7 +424,7 @@ ul .active {
 
 .stat--text {
   color: white;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
   padding-top: 3rem;
 }
@@ -411,7 +434,7 @@ ul .active {
 }
 
 .stat--count {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 2rem 1rem;
 }
 
@@ -430,7 +453,7 @@ ul .active {
 .news-col {
   display: flex;
   justify-content: space-between;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .news {
@@ -480,7 +503,7 @@ ul .active {
 }
 
 .testimony {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   /* background: rgba(69, 135, 154, 0.5); */
   margin: 1rem 1rem;
   padding: 3rem 1.8rem;
@@ -529,7 +552,7 @@ footer {
   background-color: #5A962F;
   display: flex;
   justify-content: space-between;
-  font-family: 'Poppins', sans serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 
@@ -597,7 +620,7 @@ footer {
 
 .rights {
   padding: 1rem 0;
-  font-family: 'Poppins', sans serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (max-device-width: 900px) {
@@ -662,8 +685,8 @@ footer {
   }
 
   .para {
-    text-align: left;
-    font-size: 1.15rem;
+    text-align: center;
+    font-size: 1.6rem;
   }
 
   .objectives-row-1, .objectives-row-2 {
@@ -677,6 +700,11 @@ footer {
 
   .card {
     width: 100%;
+  }
+
+  .card h3 {
+    font-size: 2.4rem;
+    
   }
 
   /* Statistics Styling for phone */
@@ -698,7 +726,9 @@ footer {
 
   .mission {
     width: 100%;
+    font-size: 1.6rem;
     margin-top: 1rem;
+    font-style: italic;
   }
 
   .news-col {
@@ -737,12 +767,24 @@ footer {
 
   .billboard--content {
     position: absolute;
-    top: 12rem;
+    top: 15rem;
     padding: 1rem 1rem;
   }
 
+  .billboard--content h1 {
+  font-size: 1.5rem;
+}
+
+
+  .billboard--content h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+
+
   .main-heading {
-    font-size: 1.8rem;
+    font-size: 3rem;
+    padding-bottom: 1rem;
   }
 
   .about--content {
@@ -761,7 +803,8 @@ footer {
   }
   
   .card-info p {
-    font-size: 1rem;
+    font-size: 1.6rem;
+    font-style: italic;
   }
 
   .card .fas {
