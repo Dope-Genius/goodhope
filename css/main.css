@@ -101,7 +101,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: .2rem 1rem;
+  padding: .2rem 2rem;
   padding-top: 1rem;
   /* border-bottom: 1px solid var(--green); */
   /* width: 100%; */
@@ -135,14 +135,14 @@ nav {
 
 .mobile-nav ul {
   margin-top: 1.2rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   font-weight: 500;
 
 }
 
 .nav-social {
   position: absolute;
-  bottom: 1rem;
+  bottom: 2rem;
 }
 
 
@@ -242,6 +242,11 @@ ul .active {
 .billboard--content h2 {
   font-size: 4rem;
   margin-bottom: 1rem;;
+}
+
+.proceed {
+  position: relative;
+  bottom: 1rem;
 }
 
 .light-text {
@@ -344,30 +349,42 @@ ul .active {
   border-radius: 15px;
   background-color: white;
   display: flex;
-  /* justify-content: space-around; */
   align-items: center;
   text-align: left;
-  /* border: 1px solid var(--green); */
 }
 
 .card-1 {
   background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(../images/healh\ care.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-2 {
   background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(../images/healh\ care.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .card-3 {
   background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(../images/Educaion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .card-4 {
   background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(../images/campaign2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .card-5 {
   background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(/images/My\ Photos-9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 
@@ -468,6 +485,10 @@ ul .active {
 
 /* styling for latest news from blog */
 
+.blog-news h2 {
+  font-size: 2.8rem;
+}
+
 .news-col {
   display: flex;
   justify-content: space-between;
@@ -526,8 +547,8 @@ ul .active {
 .testimony {
   font-family: 'Roboto', sans-serif;
   /* background: rgba(69, 135, 154, 0.5); */
-  margin: 1rem 1rem;
-  padding: 3rem 1.8rem;
+  margin: 1rem auto;
+  padding: 3rem 5rem;
   color: white;
   text-align: center;
 }
@@ -788,6 +809,7 @@ footer {
   .testimony {
     padding: 2rem 1rem;
     text-align: center;
+    
   }
 
   .testimony-row {
@@ -805,6 +827,16 @@ footer {
 
 @media only screen and (max-device-width: 480px) {
   html { font-size: calc(.6em + 1vw); }  
+
+  body.active {
+    right: 250px;
+  }
+
+  .mobile-nav {
+    width: 250px;
+  }
+
+  
   hr {
     text-align: center;
     margin: 2rem auto;
@@ -823,7 +855,7 @@ footer {
   .billboard--content {
     position: absolute;
     top: 12rem;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
   }
 
   .billboard--content h1 {
