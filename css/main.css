@@ -85,7 +85,7 @@ header {
   position: fixed;
   width:100%;
   background-color: white;
-  top: 0;
+  top: -90px;
   z-index: 100;
   border-bottom: 1px solid var(--green);
   height: 5.5rem;
@@ -233,8 +233,9 @@ ul .active {
   background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%);
   background-position: center;
   margin-top: 4.5rem;
-  height: 85vh;
+  height: 95vh;
   overflow: hidden;
+  margin-top: 0;
 }
 
 .billboard--content {
@@ -373,7 +374,7 @@ ul .active {
 }
 
 .card-2 {
-  background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(../images/healh\ care.jpg);
+  background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url(../images/sensitization.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -644,6 +645,7 @@ footer {
   display: flex;
   align-items: center;
   padding: .8rem .1rem;
+  margin: .5rem;
 }
 
 .contact-group p {
@@ -673,7 +675,7 @@ footer {
 .quick-links li {
   list-style-type: none;
   padding-left: .5rem;
-  padding-top: .5rem;
+  padding-top: 1rem;
   color: white;
   font-size: 1.2rem;
 }
@@ -894,7 +896,7 @@ footer {
 
   .billboard--content {
     position: absolute;
-    top: 10rem;
+    top: 12rem;
     padding: 1rem 2rem;
   }
 
