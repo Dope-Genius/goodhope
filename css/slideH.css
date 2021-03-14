@@ -91,7 +91,7 @@
 
 @media only screen and (max-device-width: 480px) {
 	.cb-slideshow li span {
-		height: 50vh;
+		height: 60vh;
 	}
 }
 

@@ -172,6 +172,7 @@ nav {
 
 .logo img {
   width: 100%;
+  height: auto;
 }
 
 li a {
@@ -211,11 +212,23 @@ ul .active {
   transform: scale(1.08)
 }
 
-.btn:active {
-  transfrom
-}
 
 /* styling for billboard */
+
+.bill-nav .menu {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.bill-nav .logo {
+  height: 5rem;
+  width: 5rem;
+}
+
+.bill-nav .fa-bars {
+  color: var(--white);
+}
+
 .billboard {
   background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%);
   background-position: center;
@@ -421,6 +434,7 @@ ul .active {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  padding-bottom: 2.5rem;
   /* background: rgba(231, 226, 226, 0.52); */
 
 }
@@ -435,6 +449,16 @@ ul .active {
 .mission p {
   font-style: italic;
   font-size: 1.6rem;
+}
+
+.btn--work {
+  background-color: var(--green);
+  padding: 1rem 2rem;
+}
+
+.work {
+  background-color: #f7f7f7!important;
+  /* padding-bottom: 3rem; */
 }
 
 
@@ -499,7 +523,7 @@ ul .active {
   /* background-color: var(--bg-color); */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  margin: 1rem;
+  margin: 1rem .8rem;
   padding-bottom: 1rem;
   width: 100%;
   max-width: 30rem;
@@ -531,9 +555,17 @@ ul .active {
   font-size: .5rem;
 }
 
+.news--more .btn {
+  padding: .6rem 1rem;
+}
+
+.news--more a {
+  font-size: 1.2rem;
+}
+
 .news--more p {
   font-weight: light;
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 /* styling for testimonials */
@@ -551,6 +583,14 @@ ul .active {
   padding: 3rem 5rem;
   color: white;
   text-align: center;
+}
+
+.quote-mark {
+  font-size: 10rem;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 6rem;
 }
 
 .testimony .para {
@@ -573,7 +613,7 @@ ul .active {
 }
 
 .testimony-row {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
 }
 
@@ -713,15 +753,15 @@ footer {
   }
 
   .billboard--content {
-    top: 8rem;
+    top: 12rem;
   }
   
   .billboard--content h1 {
-    font-size: .8rem;
+    font-size: 1rem;
   }
 
   .billboard--content h2 {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
 
@@ -849,12 +889,12 @@ footer {
 
   
   .billboard {
-    height: 50vh;
+    height: 60vh;
     }
 
   .billboard--content {
     position: absolute;
-    top: 12rem;
+    top: 10rem;
     padding: 1rem 2rem;
   }
 
@@ -901,6 +941,9 @@ footer {
     margin: 0 1rem;
   }
 
+  .mis-vis {
+    padding-bottom: 1rem;
+  }
   
   .statistics {
     display: block;
