@@ -178,7 +178,14 @@ nav {
 li a {
   text-decoration: none;
   color: white;
+  transition: all .3s;
 }
+
+.mobile-nav li a:hover {
+  margin-left: .8rem;
+}
+
+
 
 ul .active {
   color: white;
@@ -566,7 +573,7 @@ ul .active {
 
 .news--more p {
   font-weight: light;
-  font-size: .8rem;
+  font-size: 1.1rem;
 }
 
 /* styling for testimonials */
