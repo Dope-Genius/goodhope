@@ -57,7 +57,7 @@ a {
 
 .menu {
   font-size: 1.8rem;
-  color: var(--green);
+  color: var(--blue);
 }
 
 hr {
@@ -108,7 +108,7 @@ nav {
 }
 
 .mobile-nav {
-  background-color: var(--green);
+  background: linear-gradient(102deg, rgba(119,191,67,1) 0%, rgba(90,200,231,1) 100%);
   position: fixed;
   top: 0;
   right: 0;
@@ -129,7 +129,7 @@ nav {
 }
 
 .mobile-nav ul .btn {
-  color: green;
+  color: var(--blue);
   background-color: white
 }
 
@@ -148,7 +148,7 @@ nav {
 
 .fa-bars {
   font-size: 1.6rem;
-  color: var(--green);
+  color: var(--blue);
 }
 
 
@@ -224,7 +224,7 @@ ul .active {
 
 .bill-nav .menu {
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: var(--blue);
 }
 
 .bill-nav .logo {
@@ -253,7 +253,7 @@ ul .active {
   top: 18rem;
   padding: 0 2.5rem;
   /* background-color: rgba(50, 85, 70, 0.418); */
-  padding: 1.6rem 1rem;
+  padding: 1.6rem 3rem;
 }
 
 .billboard--content h1 {
@@ -272,6 +272,10 @@ ul .active {
 
 .light-text {
   /* font-weight: 300; */
+}
+
+.billboard--content .blue {
+  background-color: var(--blue);
 }
 
 /* Styling for the about us section */
@@ -460,7 +464,7 @@ ul .active {
 }
 
 .btn--work {
-  background-color: var(--green);
+  background-color: var(--blue);
   padding: 1rem 2rem;
 }
 
@@ -738,6 +742,7 @@ footer {
     display: block;
     cursor: pointer;
     font-size: 1.5rem;
+    color: var(--blue); 
   }
 
   .fa-bars {
