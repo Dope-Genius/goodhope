@@ -255,7 +255,7 @@ ul .active:hover {
   background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%);
   background-position: center;
   margin-top: 4.5rem;
-  height: 95vh;
+  height: 90vh;
   overflow: hidden;
   margin-top: 0;
   position: relative;
@@ -979,12 +979,12 @@ footer {
   } */
 
   .billboard--content h1 {
-  font-size: 1.5rem;
+  font-size: 1.rem;
 }
 
 
   .billboard--content h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-transform: uppercase;
   }
 
