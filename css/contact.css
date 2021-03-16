@@ -1,3 +1,7 @@
+header {
+  top: 0;
+}
+
 .main-contact {
   display: flex;
   font-family: 'Poppins', sans-serif;
@@ -12,6 +16,7 @@ form {
 .form-col {
   display: flex;
   justify-content: space-between;
+  margin-top: 2rem;
 }
 
 .f1 {
