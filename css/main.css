@@ -1,5 +1,5 @@
 :root {
-  --green: #77BF43;
+  --green: #58aa1e;
   --blue: #5AC8E7;
   --bg-color: rgba(209, 242, 251, 0.99);
 }
@@ -108,12 +108,13 @@ nav {
 }
 
 .mobile-nav {
-  background: linear-gradient(102deg, rgba(90,200,231,1) 0%, rgba(119,191,67,1) 100%);
+  /* background: linear-gradient(102deg, rgba(90,200,231,1) 0%, rgba(119,191,67,1) 100%); */
+  background: white;;
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
-  padding: .5rem .5rem;
+  padding: .5rem 0;
   z-index: 99;
   width: 300px;
   height: 100%;
@@ -122,6 +123,7 @@ nav {
   display: none;
   color: white;
   flex-direction: column;
+  transition: all .5s ease-in;
 }
 
 .mobile-nav.active {
@@ -129,13 +131,13 @@ nav {
 }
 
 .mobile-nav ul .btn {
-  color: var(--blue);
-  background-color: white
+  color: white;
+  background-color: var(--green);
+  margin-left: 2rem;
 }
 
 .mobile-nav ul {
   margin-top: 1.2rem;
-  margin-left: 2rem;
   font-weight: 500;
 
 }
@@ -156,6 +158,13 @@ nav {
   list-style-type: none; 
   font-size: 1.5rem;
   padding-bottom: .6rem;
+  padding-left: 2rem;
+  color: var(--green);
+}
+
+.mobile-nav li:hover {
+  border-left: 3px solid var(--blue);
+  color: var(--blue);
 }
 
 .pill {
@@ -177,7 +186,7 @@ nav {
 
 li a {
   text-decoration: none;
-  color: white;
+  color: var(--green);
   transition: all .3s;
 }
 
@@ -188,9 +197,15 @@ li a {
 
 
 ul .active {
-  color: white;
+  color: var(--green);
   font-size: 1.7rem;
+  transition: all .4s;
 }
+
+ul .active:hover {
+  color: var(--blue);
+}
+
 
 /* Styling for Buttons */
 
@@ -243,6 +258,7 @@ ul .active {
   height: 95vh;
   overflow: hidden;
   margin-top: 0;
+  position: relative;
 }
 
 .billboard--content {
@@ -250,10 +266,10 @@ ul .active {
   letter-spacing: 1.2px;
   color: white;
   position: absolute;
-  top: 18rem;
+  bottom: 18%;
   padding: 0 2.5rem;
   /* background-color: rgba(50, 85, 70, 0.418); */
-  padding: 1.6rem 3rem;
+  padding: 1.6rem 2rem;
 }
 
 .billboard--content h1 {
@@ -266,8 +282,21 @@ ul .active {
 }
 
 .proceed {
-  position: relative;
-  bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: #d2e4c5;
+  border: 2px solid var(--green);
+  border-radius: 10px;
+  padding: .5rem 2rem;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fa-angle-down {
+  margin-top: .2rem;
 }
 
 .light-text {
@@ -331,6 +360,44 @@ ul .active {
   width: 90%;
   border-radius: 10px;
   /* margin-top: 6.5rem; */
+}
+
+.start {
+  position: relative;
+}
+.start:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place the pseudo element right under the content */
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, var(--green) 100%, transparent 0);
+  animation-name: highlight;
+  animation-duration: 1.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal; /* Make the animation run back and forth */
+}
+
+@keyframes highlight {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  50% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  100% {
+      width: 100%;
+      opacity: 1;
+  }
+
 }
 
 /* styling for the Objectives section */
@@ -711,8 +778,8 @@ footer {
   font-size: 2rem;
 }
 
-.socials a {
-  color: white;
+.nav-social .fab {
+  color: var(--green);
 }
 
 .rights {
@@ -760,14 +827,14 @@ footer {
   }
   
 
-  .billboard {
+  /* .billboard {
   height: 70vh;
   overflow: hidden;
   }
 
   .billboard--content {
     top: 12rem;
-  }
+  } */
   
   .billboard--content h1 {
     font-size: 1rem;
@@ -902,14 +969,14 @@ footer {
 
   
   .billboard {
-    height: 60vh;
+    /* height: 60vh; */
     }
 
-  .billboard--content {
+  /* .billboard--content {
     position: absolute;
     top: 12rem;
     padding: 1rem 2rem;
-  }
+  } */
 
   .billboard--content h1 {
   font-size: 1.5rem;

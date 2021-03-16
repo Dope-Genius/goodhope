@@ -83,7 +83,7 @@
 }
 
 
-@media only screen and (max-device-width: 900px) {
+/* @media only screen and (max-device-width: 900px) {
 	.cb-slideshow li span {
 		height: 70vh;
 	}
@@ -93,5 +93,5 @@
 	.cb-slideshow li span {
 		height: 60vh;
 	}
-}
+} */
 
