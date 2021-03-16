@@ -60,6 +60,16 @@ a {
   color: var(--blue);
 }
 
+.close {
+  /* position: absolute; */
+  text-align: right;
+  margin-top: .8rem;
+  margin-right: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
 hr {
   text-align: center;
   margin: 2rem auto;
@@ -114,20 +124,21 @@ nav {
   top: 0;
   right: 0;
   bottom: 0;
-  padding: .5rem 0;
+  padding: 1.5rem 0;
   z-index: 99;
-  width: 300px;
+  width: 0px;
   height: 100%;
   max-height: 100vh;
   display: flex;
-  display: none;
   color: white;
   flex-direction: column;
-  transition: all .5s ease-in;
+  transition: all 0.4s ease-in;
+  border-left: 1px solid var(--green);
 }
 
 .mobile-nav.active {
   display: flex;
+  width: 300px;
 }
 
 .mobile-nav ul .btn {
@@ -137,7 +148,7 @@ nav {
 }
 
 .mobile-nav ul {
-  margin-top: 1.2rem;
+  /* margin-top: 1.2rem; */
   font-weight: 500;
 
 }
@@ -169,8 +180,8 @@ nav {
 
 .pill {
   display: block;
-  margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   font-weight: 700;
 }
 
@@ -953,8 +964,13 @@ footer {
   }
 
   .mobile-nav {
+    width: 0;
+  }
+
+  .mobile-nav.active {
     width: 250px;
   }
+  
 
   
   hr {
