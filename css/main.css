@@ -186,7 +186,7 @@ nav {
 
 li a {
   text-decoration: none;
-  color: var(--green);
+  color: var(--blue);
   transition: all .3s;
 }
 
