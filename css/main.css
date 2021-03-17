@@ -98,7 +98,7 @@ header {
   top: -90px;
   z-index: 100;
   border-bottom: 1px solid var(--green);
-  height: 5.5rem;
+  /* height: 5.2rem; */
   overflow: hidden;
 }
 
@@ -112,7 +112,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: .2rem 2rem;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   /* border-bottom: 1px solid var(--green); */
   /* width: 100%; */
 }
@@ -193,6 +193,7 @@ nav {
 .logo img {
   width: 100%;
   height: auto;
+  margin: .5rem 0;
 }
 
 li a {
@@ -290,6 +291,11 @@ ul .active:hover {
 .billboard--content h2 {
   font-size: 4rem;
   margin-bottom: 1rem;;
+}
+
+.content--lead {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 .proceed {
@@ -652,7 +658,7 @@ ul .active:hover {
 }
 
 .news--text h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .news--more {
@@ -1008,12 +1014,6 @@ footer {
   .billboard {
     /* height: 60vh; */
     }
-
-  /* .billboard--content {
-    position: absolute;
-    top: 12rem;
-    padding: 1rem 2rem;
-  } */
 
   .billboard--content h1 {
   font-size: 1.rem;
