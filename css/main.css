@@ -1,3 +1,4 @@
+
 :root {
   --green: #58aa1e;
   --blue: #5AC8E7;
@@ -98,7 +99,7 @@ header {
   top: -90px;
   z-index: 100;
   border-bottom: 1px solid var(--green);
-  /* height: 5.2rem; */
+  height: 5.5rem;
   overflow: hidden;
 }
 
@@ -112,7 +113,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: .2rem 2rem;
-  /* padding-top: 1rem; */
+  padding-top: 1rem;
   /* border-bottom: 1px solid var(--green); */
   /* width: 100%; */
 }
@@ -193,7 +194,6 @@ nav {
 .logo img {
   width: 100%;
   height: auto;
-  margin: .5rem 0;
 }
 
 li a {
@@ -222,7 +222,7 @@ ul .active:hover {
 /* Styling for Buttons */
 
 .btn {
-  padding: .6rem 1.5rem;
+  padding: .9rem 1.6rem;
   border-radius: 5px;
   border: none;
   color: white;
@@ -567,7 +567,7 @@ ul .active:hover {
 
 .btn--work {
   background-color: var(--blue);
-  padding: 1rem 2rem;
+  padding: 1.1rem 2rem;
 }
 
 .work {
@@ -670,7 +670,7 @@ ul .active:hover {
 }
 
 .news--more .btn {
-  padding: .6rem 1rem;
+  padding: .8rem 1rem;
 }
 
 .news--more a {

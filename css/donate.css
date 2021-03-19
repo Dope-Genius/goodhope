@@ -1,5 +1,5 @@
 .main-heading {
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 
@@ -38,7 +38,7 @@
 }
 
 .news--image {
-    max-height: 13rem;
+    max-height: 16rem;
     overflow: hidden;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .news--text, .news--more {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
 }
 
 .news--text h3 {
@@ -64,7 +64,7 @@
 }
 
 .news--more .btn {
-    padding: .8rem 2.2rem;
+    padding: 1.2rem 2.2rem;
     text-align: center;
 }
 
@@ -83,17 +83,18 @@
     font-family: 'Roboto', sans-serif;
     margin: .8rem 0; 
     font-size: 1.2rem;
-    text-align: center;
+    /* text-align: center; */
 }
 
 
-@media only screen and (max-device-width: 920px) {
+@media only screen and (max-device-width: 900px) {
     .donate-row, .donate {
         display: block;
     }
 
     .news {
-        width: 30rem;
+        width: 100%;
+        max-width: 30rem;
         margin: 2rem auto;
     }
 
