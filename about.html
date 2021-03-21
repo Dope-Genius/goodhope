@@ -9,11 +9,11 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> -->
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/slideH.css">
+  <link rel="stylesheet" href="css/testimony.css">
   <link rel="stylesheet" href="css/shared.css">
-  <link rel="stylesheet" href="css/about.css">
   <script src="https://kit.fontawesome.com/d206b6bfc8.js" crossorigin="anonymous"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="favicon_io (5)/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon_io (5)/favicon-32x32.png">
@@ -31,7 +31,7 @@
       <div class="menu close"><i class="fas fa-times"></i></div>
       <ul>
         <li ><a href="index.html" class="active">Home</a></li>
-        <li ><a href="index.html" class="active">The Challenge</a></li>
+        <li ><a href="challenge.html" class="active">The Challenge</a></li>
         <li ><a href="index.html" class="active">Our Work</a></li>
         <li ><a href="index.html" class="active ">Our Team</a></li>
         <li ><a href="index.html" class="active ">Get Involved</a></li>
@@ -50,14 +50,36 @@
     </div>
   </header>
 
+ 
   <section class="billboard">
-    <div class="billboard--content">
-      <h1>About Us</h1>
+     <nav class="bill-nav">
+      <a href="index.html"><div class="logo" id="bill-logo"><img src="images/GOODD (3).png" alt="goodhope logo" ></div></a>
+      <div class="menu" id="body-main_nav">MENU  <i class="fas fa-bars"></i></div>
+    </nav>
+   
+    <div class="slide">
+      <ul class="cb-slideshow">
+        <li><span>Image 01</span></li>
+        <li><span>Image 02</span></li>
+        <li><span>Image 03</span></li>
+        <li><span>image 04</span></li>
+      </ul>
+    </div>
+
+    <div class="billboard--content"  data-aos="fade-up" data-aos-duration="1800">
+      <h2> About Us</h2>
+      <p class="content--lead">Know more about GOod Hope FLourish Foundation.</p>
+    </div>
+
+    <div class="proceed center">
+      <p>Continue</p>
+      <div><i class="fas fa-angle-down"></i></div>
     </div>
   </section>
 
   <section class="about-us about-main pad">
     <div class="about--content">
+      <!-- <p class="main-heading">ABOUT US</p> -->
       <h2 class="main-heading">Who are we?</h2>
       <p class="para">
         The conceptualization and consequent birth of GoodHope Flourish Foundation(GHFF)
@@ -67,95 +89,7 @@
         <h1 class="high-lighted_text">To inspire hope  and make life worth living and flourishing for all and sundry.</h1></p>
     </div>  
   </section>
-      
-  <section class="objectives pad">
-    <h2 class="main-heading center">Core Objectives</h2>
 
-    <div class="objectives-row-1">
-      <div class="card">
-        <div class="icon"><i class="fas fa-heartbeat"></i></div>
-        <div class="card-info">
-          <h3>Health Care</h3>
-          <p>Improve quality of health care delivery for pregnant women/adolescent girls and provide extensive care to infants through nutrition and immunization</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="icon"><i class="fas fa-info-circle"></i></div>
-        <div class="card-info">
-            <h3>Sensitization</h3>
-            <p> Sensitization on personal hygiene, safe practices and mental health awareness</p>
-        </div>
-      </div>
-      
-      <div class="card">
-        <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
-        <div class="card-info">
-            <h3>Education</h3>
-            <p> Promote quality education as fundamental human right through ensuring equal access and support for conducive learning </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="objectives-row-2 ">
-    <div class="card">
-      <div class="icon"><i class="fas fa-bullhorn"></i></div>
-      <div class="card-info">
-          <h3>Campaign</h3>
-          <p>Creating campaign programs that that span across prevention and managing of infectious diseases and infected persons</p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="icon"><i class="fas fa-venus-mars"></i></i></div>
-      <div class="card-info">
-          <h3>Advocacy</h3>
-          <p>Advocate for the elimination of gender based violence, female genital mutilation and support for gender equality and human rights</p>
-      </div>
-    </div>
-  </div>
-  </section>
-
-  <section class="mis-vis pad">
-    <div class="mission">
-      <h2 class="main-heading">Our Mission</h2>
-      <p>To inspire hope, improve health and educational standards through service, research and impact</p>
-    </div>
-
-    <div class="mission">
-      <h2 class="main-heading">Our Vision</h2>
-      <p>To be the unparalleled leader in improving the standard of living, education and health care in Nigerian states and communities</p>
-    </div>
-  </section>
-
-  <section class="statistics pad-x">
-      <div class="stat--text">
-        <p>We are on a <br> mission to help</p>
-        <button class="btn btn--donate">Donate</button>
-      </div>
-  
-      <div class="stat--count">
-        <div class="count-no">500+</div>
-        <div class="count-text">Campaign</div>
-      </div>
-  
-      <div class="stat--count">
-        <div class="count-no">30+</div>
-        <div class="count-text">Donors</div>
-      </div>
-  
-      <div class="stat--count">
-        <div class="count-no">1500</div>
-        <div class="count-text">Lives Saved</div>
-      </div>
-    </section>
-
-    <section class="invitation pad center">
-      <h2 class="main-heading">Join us Now</h2>
-      <p class="para">Join us today to receive updates, to get our newsletter, keep track of your donations and become a member of the GoodHope Flourish foundation team.</p>
-      <button class="btn btn--blue">JOIN US</button>
-    </section>
-  
   <footer class="pad">
     <div class="contact">
       <h3 class="company--name">GoodHope Flourish <br> <span class="small">Foundation</span></h3>
@@ -180,10 +114,10 @@
     <div class="quick-links">
       <p>Quick Links</p>
       <ul>
-        <li ><a href="#" class="active">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li ><i class="fas fa-angle-right"></i><a href="#" >Home</a></li>
+        <li><i class="fas fa-angle-right"></i><a href="#">About</a></li>
+        <li><i class="fas fa-angle-right"></i><a href="#">Blog</a></li>
+        <li><i class="fas fa-angle-right"></i><a href="#">Contact</a></li>
         <!-- <button class="btn btn--donate">DONATE</button> -->
       </ul>
     </div>
@@ -194,9 +128,15 @@
       <a href="#"><i class="fab fa-instagram"></i></a>
     </div>
   </footer>
+  
   <div class="rights center">Copyright ©2020 GoodHope Flourish Foundation All rights reserved</div>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="app.js"></script>
+  <script src="app1.js"></script>
+  <script src="Intersectionobserver.js"></script>
 </body>
-<script src="app.js"></script>
 
 </html>
