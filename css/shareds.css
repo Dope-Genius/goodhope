@@ -1,0 +1,25 @@
+.billboard {
+  height: 70vh;
+}
+
+.billboard--content {
+  text-align: center;
+}
+
+.billboard--content h1 {
+  font-size: 3rem;
+  margin-bottom: .2rem;
+}
+
+@media only screen and (max-device-width: 900px) {
+  .billboard--content h1 {
+    font-size: 1.5rem;
+    margin-bottom: -3rem;
+  }
+}
+
+@media only screen and (max-device-width: 450px) {
+  .billboard {
+    height: 70vh;
+  }
+}
