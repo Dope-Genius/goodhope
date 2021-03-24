@@ -1,0 +1,99 @@
+.pad {
+    padding-top: 2.5rem;
+    padding-right: 4rem;
+    padding-bottom: 2.5rem;
+    padding-left: 4rem;
+}
+
+.pad-x {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+.challenges {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.challenges p {
+    font-size: 1.7rem;
+}
+
+.birth-1 {
+    background-color: var(--green);
+    color: white;
+}
+
+.count-mil {
+    display: block;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.count-figure {
+    color: var(--blue);
+    display: block;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: .5rem 0;
+}
+
+.pad .small-txt {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.violence {
+    background-color: var(--blue);
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.violence .boys-girls {
+    font-size: 3rem;
+}
+
+.violence span {
+    font-size: 2rem;
+
+}
+
+.violence-2 {
+    background-color: var(--green);
+    color: white;
+}
+
+.count-percent {
+    font-size: 4rem;
+    display: block;
+    font-weight: bold;
+}
+
+.pad .green {
+    color: var(--green)
+}
+
+p .blue {
+    color: var(--blue)
+}
+
+.unemployment {
+    background-color: var(--green);
+    color: white;
+}
+
+.unemployment-2 {
+    background-color: var(--blue);
+    color: white;
+}
+
+.this-data {
+    padding: 3rem 3rem;
+    padding-bottom: .5rem;
+}
+
+
