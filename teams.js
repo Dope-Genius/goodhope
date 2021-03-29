@@ -4,7 +4,6 @@ const abouts = document.querySelectorAll(".member-about");
 // console.log(image)
 // console.log(abouts)
 
-
 image.forEach(btn => {
   btn.addEventListener("click", showAbout)
 });
