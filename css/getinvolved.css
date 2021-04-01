@@ -1,0 +1,62 @@
+.get-involved {
+  padding-bottom: 0;
+}
+
+.involve {
+  text-align: center;
+  padding: 4rem 15rem;
+  /* background-color: var(--green); */
+}
+
+.involve * {
+  /* color: white; */
+}
+
+.involve-2 {
+  background: linear-gradient(102deg, rgba(35, 71, 8, 0.799) 0%, rgba(87, 146, 45, 0.687) 100%), url(../images/healh\ care.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--green);
+}
+
+.involve-2 hr {
+  background-color: white;
+  color: white;
+}
+
+
+.involve-2 * {
+  color: white;
+}
+
+
+.involve .text {
+  font-size: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+  margin: 2rem 0;
+  line-height: 1.6;
+}
+
+.involve-contact {
+  background-color: #f7f7f7!important;
+}
+
+.involve-contact .main-heading {
+  color: var(--green);
+}
+
+.involve-contact .text {
+  color: black;
+}
+
+.involve-btn {
+  padding: 3rem 2rem;
+
+}
+
+
+@media only screen and (max-width: 950px) {
+  .involve {
+      padding: 4rem 2rem;
+  }
+}

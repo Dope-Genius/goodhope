@@ -334,13 +334,6 @@ ul .active:hover {
   }
 }
 
-.light-text {
-  /* font-weight: 300; */
-}
-
-.billboard--content .blue {
-  /* background-color: var(--blue); */
-}
 
 /* Styling for the about us section */
 .main-heading {
@@ -446,20 +439,6 @@ ul .active:hover {
   display: flex;
 }
 
-/* .obj--image {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 60%;
-  margin-top: 1rem;
-  flex: 0 0 35%;
-}
-
-.obj--image img {
-  width: 100%;
-  margin: 3rem 1rem;
-  margin-bottom: 1rem;
-} */
 
 .objectives--cards {
   margin-left: 3rem;
@@ -747,7 +726,7 @@ ul .active:hover {
 /* Styling for footer */
 
 footer {
-  background-color: #5A962F;
+  background-color: var(--green);
   display: flex;
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
@@ -818,7 +797,7 @@ footer {
 }
 
 .rights {
-  padding: 2rem 0;
+  padding: 2rem;
   font-family: 'Roboto', sans-serif;
 }
 
