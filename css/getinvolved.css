@@ -1,3 +1,8 @@
+.billboard {
+  background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url('/images/getinvolved.jpg');
+  background-position: 40% 70%;
+}
+
 .get-involved {
   padding-bottom: 0;
 }
@@ -6,10 +11,25 @@
   text-align: center;
   padding: 4rem 15rem;
   /* background-color: var(--green); */
+  position: relative;
 }
 
 .involve * {
   /* color: white; */
+}
+
+.arrow-down {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0rem;
+  margin: 0 auto;
+  width: 0; 
+  height: 0; 
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 50px solid white; 
 }
 
 .involve-2 {
@@ -58,5 +78,19 @@
 @media only screen and (max-width: 950px) {
   .involve {
       padding: 4rem 2rem;
+  }
+
+  .arrow-down {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0rem;
+    margin: 0 auto;
+    width: 0; 
+    height: 0; 
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid white; 
   }
 }
