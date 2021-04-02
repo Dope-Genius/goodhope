@@ -12,6 +12,7 @@
   padding: 4rem 15rem;
   /* background-color: var(--green); */
   position: relative;
+  font-family: 'Roboto', sans-serif;
 }
 
 .involve * {
@@ -37,6 +38,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--green);
+  font-family: 'Roboto', sans-serif;
 }
 
 .involve-2 hr {

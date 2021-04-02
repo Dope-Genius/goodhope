@@ -1,7 +1,6 @@
 .billboard {
-  background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url('/images/aboutus.jpg');
-  background-position: 10% 20%;
-  background-size: 1350px 1080px;
+  background: linear-gradient(102deg, rgba(34,68,9,0.7987570028011204) 0%, rgba(119,191,67,0.6867121848739496) 100%), url('/images/3kids.jpg');
+  background-position: 60% 35%;
 }
 
 .about-us {
@@ -23,6 +22,10 @@
   margin: .5rem 0;
 }
 
-
+@media only screen and (max-width: 600px) {
+  .billboard {
+    background-position: center;
+  }
+}
   
  
