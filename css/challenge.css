@@ -175,7 +175,7 @@ p .blue {
 
 @media only screen and (max-width: 600px) {
     .billboard {
-        background-position: 65% 10%;
+        background-position: 55% 10%;
     }
 }    
 
