@@ -420,6 +420,7 @@ ul .active:hover {
 .objectives {
   text-align: center;
   background-color: #f7f7f7!important;
+  position: relative;
 }
 
 .obj--group {
@@ -534,11 +535,27 @@ ul .active:hover {
 .btn--work {
   background-color: var(--blue);
   padding: 1.1rem 2rem;
+  margin: 0.7rem 0;
+}
+
+.arrow-down {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0rem;
+  margin: 0 auto;
+  width: 0; 
+  height: 0; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid white; 
 }
 
 .work {
   background-color: #f7f7f7!important;
   /* padding-bottom: 3rem; */
+  position: relative;
 }
 
 
@@ -647,6 +664,12 @@ ul .active:hover {
 .news--more p {
   font-weight: light;
   font-size: 1.1rem;
+}
+
+.intro {
+  font-style: italic;
+  font-size: 2rem;
+  padding: 1rem 0;
 }
 
 /* styling for testimonials */
