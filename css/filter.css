@@ -103,4 +103,9 @@
       border-right: 18px solid transparent;
       border-top: 16px solid white; 
   }
+  [type=submit] {
+    position: absolute;
+    border: none;
+    height: 3.3rem;
+  }
 }
