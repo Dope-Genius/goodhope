@@ -35,15 +35,16 @@ form {
 }
 
 .form-group {
-  margin-bottom: .8rem;
+  margin-bottom: 1.5rem;
   font-family: 'Roboto', sans-serif;
 }
 
 label {
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
+  padding-bottom: .5rem;
 }
 
 input {
@@ -62,7 +63,7 @@ textarea {
 }
 
 aside {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .cg .fas {
