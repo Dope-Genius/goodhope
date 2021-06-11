@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="css/testimony.css">
   <link rel="stylesheet" href="css/shared.css">
   <link rel="stylesheet" href="css/intersectionobserver.css">
+  <link rel="stylesheet" href="css/circle.css">
   <link rel="stylesheet" href="css/challenge.css">
 
   <script src="https://kit.fontawesome.com/d206b6bfc8.js" crossorigin="anonymous"></script>
@@ -65,7 +66,7 @@
 
     <div class="billboard--content"  data-aos="fade-up" data-aos-duration="1200">
       <h2>The Challenge</h2>
-      <!--p class="content--lead">Everyone deserves a better life, unfortunately the indices is not favorable</p-->
+      <p class="content--lead">Everyone deserves a better life, unfortunately the indices is not favorable</p>
     </div>
 
     <div class="proceed center">
@@ -90,15 +91,30 @@
   
     <div class="violence pad-c"  data-aos="fade-up" data-aos-duration="1200">
       <div class="arrow-down"></div>
-      <p>According to 2015 UNICEF report</p>
-      <p data-aos="fade-right" data-aos-duration="3000" class="boys-girls">ONE <br><span>IN</span> FOUR GIRLS <br> <span>AND</span> <br> ONE <br> <span>IN</span> TEN BOYS</p>
-      <P>in Nigeria had experienced sexual violence before the age of 18</P>
-    </div>
-  
-    <div class="violence-2 pad-c"  data-aos="fade-up" data-aos-duration="1200">
-      <div class="arrow-down3"></div>
-      <p>OVER <span class="count-percent">31.4%</span> OF GIRLS SAID THEIR FIRST SEXUAL ENCOUNTER HAD BEEN RAPED OR FORCED SEX 0F SOME KIND
-      </p>
+      <p class="boys-girls">According to 2015 UNICEF report</p>
+      <p class="boys-girls">
+        <i id="female-icon" data-aos="fade-right" data-aos-duration="3000" class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        <br>One in four girls <br>
+      <span>AND</span> <br>
+      <i data-aos="fade-right" data-aos-duration="3000" class="fas fa-male"></i><i id="male-icon" class="fas fa-male"></i><i id="male-icon" class="fas fa-male"></i>
+      <i id="male-icon" class="fas fa-male"></i><i id="male-icon" class="fas fa-male"></i><i id="male-icon" class="fas fa-male"></i><i id="male-icon" class="fas fa-male"></i><i id="male-icon" class="fas fa-male"></i>
+      <i id="male-icon" class="fas fa-male"></i><i id="male-icon" class="fas fa-male"></i>
+      <br> One in ten boys in Nigeria had <br> experienced sexual violence <br> before the age of 18.
+      <br>Over<br>
+      <div class="circular">
+        <div class="inner"></div>
+          <div class="number">31.4%</div>
+            <div class="circle">
+              <div class="bar left">
+               <div class="progress"></div>
+               </div>
+              <div class="bar right">
+            <div class="progress"></div>
+           </div>
+         </div>
+      </div>
+     <p class="boys-girls">of girls said their first sexual encounter had been raped or forced sex of some kind
+    </p>
     </div>
   
     <div class="pad-c"  data-aos="fade-up" data-aos-duration="1200">
@@ -178,6 +194,8 @@
   </script>
   <script src="js/nav.js"></script>
   <script src="js/header.js"></script>
+  <script src="js/progressobserver.js"></script>
+  <script src="js/Intersectionobserver.js"></script>
 </body>
 
 </html>
