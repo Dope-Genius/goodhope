@@ -34,8 +34,8 @@
   left:50%;
   transform: translate(-50%, -50%);
   z-index:10;
-  font-size:18px;
-  font-weight:500;
+  font-size:1.5rem;
+  font-weight:bold;
   color:var(--blue);
 }
 
