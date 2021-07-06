@@ -96,6 +96,16 @@ hr {
  background-color: #ccc;
 }
 
+.hr {
+    text-align: center;
+    margin: 2rem auto;
+    width: 10%;
+    color: black;
+    height: 1.5px;
+    background-color: black;
+    border: 0;
+}
+
 @media only screen and (max-device-width: 1000px) { 
     .blog {
         margin: 6rem auto;
