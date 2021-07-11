@@ -1,0 +1,98 @@
+.billboard {
+    height: 20vh;
+}
+.blog {
+    width: 80%;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.blog-header {
+    font-family: 'Roboto', sans-serif;
+    color: var(--green);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+
+.blog--image {
+    width: 100%;
+    text-align: center;
+}
+
+.blog--image img {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.blog--date {
+    font-family:'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.3rem;
+}
+
+
+.blog--para {
+    line-height: 2.2;
+    text-align: left;
+}
+
+.share {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: gray;
+    position: relative;
+    margin-bottom: 8rem;
+}
+
+.favi .fab {
+    color: var(--green);
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.favi {
+    position: absolute;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-device-width: 1000px) { 
+    .billboard {
+        height: 15vh;
+    }
+    .blog-header {
+        text-align: left;
+        font-size: 1.7rem;
+        padding-top: 1rem;
+    }
+
+    .blog--image {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .blog--image img {
+        width: 100%;
+        margin: 2rem auto;
+    }
+    
+    
+    .blog--para {
+        line-height: 1.8;
+        text-align: left;
+ }
+ .share {
+     font-size: 1.2rem
+ }
+}
