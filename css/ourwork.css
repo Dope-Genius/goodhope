@@ -1,3 +1,6 @@
+.billboard {
+    height: 20vh;
+}
 .blog--image {
     width: 100%;
     text-align: center;
@@ -5,4 +8,14 @@
 
 .blog--image img {
     width: 100%;
+}
+
+@media only screen and (max-device-width: 1000px) { 
+    .billboard {
+        height: 15vh;
+    }
+    
+    .blog--image {
+        height: 80vh;
+    }
 }
