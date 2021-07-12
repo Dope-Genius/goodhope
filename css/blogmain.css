@@ -1,6 +1,11 @@
+header {
+    top: 0;
+}
+
 .billboard {
     height: 20vh;
 }
+
 .blog {
     width: 80%;
     margin: 3rem auto;
@@ -14,9 +19,9 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: left;
+    margin-top: 8rem;
     margin-bottom: 1rem;
 }
-
 
 .blog--image {
     width: 100%;
@@ -26,6 +31,8 @@
 .blog--image img {
     width: 80%;
     margin: 2rem auto;
+    border: 1px solid;
+    border-color: var(--green); 
 }
 
 .blog--date {
@@ -75,6 +82,7 @@
         text-align: left;
         font-size: 2rem;
         padding-top: 1rem;
+        margin-top: 6rem;
     }
 
     .blog--image {

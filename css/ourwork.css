@@ -1,9 +1,14 @@
+header {
+    top: 0;
+}
+
 .billboard {
     height: 20vh;
 }
 .blog--image {
     width: 100%;
     text-align: center;
+    margin-top: 2.8rem;
 }
 
 .blog--image img {
