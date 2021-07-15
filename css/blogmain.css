@@ -48,6 +48,7 @@ header {
 .blog--para {
     line-height: 2.2;
     text-align: left;
+    font-size: 1.4rem;
 }
 
 .share {
@@ -99,6 +100,7 @@ header {
     .blog--para {
         line-height: 1.8;
         text-align: left;
+        font-size: 1.2rem;
  }
  .share {
      font-size: 1.2rem
